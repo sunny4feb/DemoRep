@@ -1,0 +1,49 @@
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Update Number </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="http://localhost:5050/profile">Profile</a>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href='http://localhost:5050/updatenumber'>Update Number</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='http://localhost:5050/updatepassword'>Update Password</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='http://localhost:5050/dropsession'>Sign Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<center>
+    <h2> Update Number </h2>
+    </center>
+<form action="/updatenumber" method="POST">
+    <center>
+        <label> Enter Name </label><br>
+        <input type="text" name="name" required placeholder= "Enter Name"><br>
+        <label> Enter Password </label><br>
+        <input type="password" name="password" required placeholder="Enter Password" ><br>
+        <label> New Mobile :</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter New Mobile"> <br>
+
+    <input type="submit">
+
+
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+            </center>
+</form>
+</body>
+</html>
+{%endblock%}

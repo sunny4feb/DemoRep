@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In </title>
+</head>
+
+<body>
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages%}
+                {{msg}}
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+  </div>
+<center>
+    <h2> Please log in </h2>
+    </center>
+<form action="/" method="POST">
+    <center>
+    <input type="text" name="email" required placeholder= "Enter Email/phone" value="{{email if email}}">
+    <input type="password" name="password" required placeholder="Enter Password" >
+    <input type="submit">
+    <h3> <a href ="/forgetpassword"> Forgot Password? </a></h3> <h3> <a href="/signup">Sign up here</a></h3>
+
+
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+            </center>
+</form>
+</body>
+</html>
+{%endblock%}

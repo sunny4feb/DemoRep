@@ -1,0 +1,19 @@
+ INFO werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Restarting with stat
+ WARNING werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger is active!
+ INFO werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger PIN: 130-658-004
+ INFO werkzeug Thread-1 C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Running on http://localhost:5050/ (Press CTRL+C to quit)
+ INFO werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Restarting with stat
+ WARNING werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger is active!
+ INFO werkzeug MainThread C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger PIN: 130-658-004
+ INFO werkzeug Thread-1 C:\python39\lib\site-packages\werkzeug\_internal.py 225:  * Running on http://localhost:5050/ (Press CTRL+C to quit)
+ INFO werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Restarting with stat
+ WARNING werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger is active!
+ INFO werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger PIN: 104-714-131
+ INFO werkzeug Thread-1 C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Running on http://localhost:5050/ (Press CTRL+C to quit)
+ INFO werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Restarting with stat
+ WARNING werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger is active!
+ INFO werkzeug MainThread C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Debugger PIN: 104-714-131
+ INFO werkzeug Thread-1 C:\Python39\lib\site-packages\werkzeug\_internal.py 225:  * Running on http://localhost:5050/ (Press CTRL+C to quit)
+ INFO werkzeug Thread-2 C:\Python39\lib\site-packages\werkzeug\_internal.py 225: 127.0.0.1 - - [08/Oct/2021 17:19:13] "GET / HTTP/1.1" 200 -
+ INFO werkzeug Thread-3 C:\Python39\lib\site-packages\werkzeug\_internal.py 225: 127.0.0.1 - - [08/Oct/2021 17:19:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ INFO werkzeug Thread-4 C:\Python39\lib\site-packages\werkzeug\_internal.py 225: 127.0.0.1 - - [08/Oct/2021 17:19:31] "GET /signup HTTP/1.1" 200 -
